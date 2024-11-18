@@ -1,0 +1,11 @@
+Original Data Set from Kaggle: https://www.kaggle.com/datasets/ka66ledata/gym-membership-dataset
+
+This project involved a moderate amount of data cleaning, with a great deal of DDL, DQL, and DML. The project file includes:
+1. gym.csv: raw data from Kaggle
+2. gym_clean.xlsx: copy of the both the raw and cleaned data. 
+3. Gym Memberships - Data Cleaning and ETL.sql: full SQL file
+4. Gym Memberships - Data Cleaning and ETL.txt: code listed in text. 
+
+Projected completed in SSMS.
+
+Link to Visualization Project: 
