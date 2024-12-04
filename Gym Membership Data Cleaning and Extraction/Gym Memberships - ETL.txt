@@ -1,7 +1,3 @@
-Use GYM;
-
-SELECT * FROM gym;
-
 /* 
 	Extract-Transform-Load:
 	1. Create copy of table to avoid corrupting source data.
@@ -220,6 +216,3 @@ CASE WHEN CHARINDEX('lemon',fav_drink) > 0 THEN 1 ELSE 0 END AS Lemon,
 CASE WHEN CHARINDEX('orange',fav_drink) > 0 THEN 1 ELSE 0 END AS Orange,
 CASE WHEN CHARINDEX('passion_fruit',fav_drink) > 0 THEN 1 ELSE 0 END AS PassionFruit
 FROM gym_copy;
-
-
-
